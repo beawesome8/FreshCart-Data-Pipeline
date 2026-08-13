@@ -4,3 +4,5 @@ __pycache__/
 venv/
 .env
 *.log
+rsa_key.p8
+rsa_key.pub
