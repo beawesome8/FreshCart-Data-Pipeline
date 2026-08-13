@@ -70,3 +70,4 @@ SELECT * FROM common.vw_latest_dq_status;-- CI/CD trigger test
 -- retest after chmod fix
 -- retest after connection flag fix
 -- retest after key format fix
+-- retest after base64 key fix
