@@ -232,9 +232,9 @@ CREATE OR REPLACE PROCEDURE common.sp_consumption_layer()
 RETURNS STRING
 LANGUAGE SQL
 AS
+$$
 DECLARE
   fail_count NUMBER;
-$$
 BEGIN
   SELECT COUNT(*) INTO :fail_count
   FROM common.dq_log
