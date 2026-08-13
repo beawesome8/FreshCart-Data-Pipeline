@@ -1,0 +1,47 @@
+name: Deploy FreshCart Pipeline to Snowflake
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'sql/**'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Snowflake CLI
+        run: pip install snowflake-cli-labs
+
+      - name: Write private key to file
+        run: echo "${{ secrets.SNOWFLAKE_PRIVATE_KEY }}" > /tmp/rsa_key.p8
+
+      - name: Configure Snowflake CLI connection
+        run: |
+          mkdir -p ~/.snowflake
+          cat > ~/.snowflake/config.toml << EOF
+          [connections.freshcart]
+          account = "${{ secrets.SNOWFLAKE_ACCOUNT }}"
+          user = "${{ secrets.SNOWFLAKE_USER }}"
+          role = "${{ secrets.SNOWFLAKE_ROLE }}"
+          warehouse = "${{ secrets.SNOWFLAKE_WAREHOUSE }}"
+          authenticator = "SNOWFLAKE_JWT"
+          private_key_file = "/tmp/rsa_key.p8"
+          EOF
+
+      - name: Deploy SQL files in order
+        run: |
+          for f in sql/00_environment_setup.sql sql/01_stage_layer.sql sql/02_clean_layer.sql \
+                   sql/03_dq_checks.sql sql/04_consumption_layer.sql sql/05_task_orchestration.sql \
+                   sql/06_reporting_views.sql; do
+            echo "Running $f"
+            snow sql -f "$f" -c freshcart --temporary-connection || exit 1
+          done
