@@ -23,10 +23,7 @@ jobs:
 
       - name: Write private key to file
         run: |
-          cat > /tmp/rsa_key.p8 << 'KEYEOF'
-          ${{ secrets.SNOWFLAKE_PRIVATE_KEY }}
-          KEYEOF
-          sed -i 's/\r$//' /tmp/rsa_key.p8
+          echo "${{ secrets.SNOWFLAKE_PRIVATE_KEY }}" | base64 -d > /tmp/rsa_key.p8
           chmod 0600 /tmp/rsa_key.p8
 
       - name: Validate private key format
