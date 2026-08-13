@@ -6,6 +6,18 @@
 
 ---
 
+## Dashboard Preview
+
+![FreshCart dashboard walkthrough](dashboard_demo.gif)
+
+The live app runs as **Streamlit in Snowflake** — native, RBAC-gated, no public URL by design
+(unlike a standalone Streamlit deployment, Snowflake doesn't offer a public link for this
+version). The GIF above is a full walkthrough of all four tabs — Revenue, Delivery Performance,
+Pipeline Health, and Cost Monitoring — since that's how the app is actually reachable by anyone
+without direct Snowflake account access.
+
+---
+
 ## 1. Problem Statement
 
 Food-delivery platforms generate high-volume, multi-entity operational data (orders, customers,
