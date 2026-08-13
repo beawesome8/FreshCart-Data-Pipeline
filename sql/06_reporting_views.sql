@@ -66,4 +66,4 @@ ORDER BY 1 DESC;
 -- ============================================================
 SELECT * FROM consumption_sch.vw_monthly_revenue;
 SELECT * FROM consumption_sch.vw_delivery_performance ORDER BY delivered_rate_pct DESC;
-SELECT * FROM common.vw_latest_dq_status;
+SELECT * FROM common.vw_latest_dq_status;-- CI/CD trigger test
