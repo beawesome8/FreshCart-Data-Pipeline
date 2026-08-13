@@ -61,9 +61,9 @@ Entities: `location`, `restaurant`, `customer`, `customer_address`, `menu`, `del
 
 ## 3a. Entity Relationship Diagram — Source Model (Stage Layer)
 
-Reflects the 8 entities actually built in Phase 1. The dimensional (star schema) ERD will be
-added here once Phase 4 is complete — it will look different from this one, since facts/SCD2
-dimensions aren't a 1:1 mirror of the source model.
+Reflects the 9 entities built across Phase 1 and the Phase 4 addendum (`DELIVERY`, added once
+delivery-performance KPIs were scoped in). The dimensional (star schema) ERD is added below once
+Phase 4's fact/dimension build is fully verified.
 
 ```mermaid
 erDiagram
@@ -117,6 +117,13 @@ erDiagram
         int quantity
         decimal subtotal
     }
+    DELIVERY {
+        int delivery_id PK
+        int order_id FK
+        int delivery_agent_id FK
+        string delivery_status
+        string estimated_time
+    }
 
     LOCATION ||--o{ RESTAURANT : "hosts"
     LOCATION ||--o{ DELIVERY_AGENT : "based_in"
@@ -126,13 +133,14 @@ erDiagram
     RESTAURANT ||--o{ ORDERS : "fulfills"
     ORDERS ||--o{ ORDER_ITEM : "contains"
     MENU ||--o{ ORDER_ITEM : "ordered_as"
+    ORDERS ||--|| DELIVERY : "fulfilled_by"
+    DELIVERY_AGENT ||--o{ DELIVERY : "performs"
 ```
 
-**Notable gap, on purpose:** there's no standalone `DELIVERY` entity linking an order to a
-delivery agent and address — the original tutorial this project is inspired by has one; this
-schema folds delivery status into the `ORDERS`/fact layer instead, to keep the source model at 8
-entities rather than 9. Worth deciding explicitly in Phase 4 whether that simplification holds up
-once you're building delivery-performance KPIs, or whether it needs to be reintroduced.
+**Design decision (documented, not a gap):** `DELIVERY` models one delivery per order — no
+re-delivery attempts or split shipments. `order_item_fact` sits at order-item grain while delivery
+attributes are at order grain, so delivery status/agent repeat across an order's line items in the
+fact table. Standard star-schema behavior, not a modeling error.
 
 ## 4. Governance & Security
 
@@ -175,8 +183,31 @@ built for human readability in the log, not a normalized structure — querying 
 `dq_fk_detail` child table, one row per FK per run) if this log ever became input to automated
 alerting.
 
-This turns "the pipeline ran" into "the pipeline ran *and the data is trustworthy*" — the claim
-that actually matters to an employer.
+### Worked example: a real caught failure
+
+Rather than assert the gate works, it was deliberately tested against real bad data:
+
+1. **Injected** a row into `stage_sch.menu` with `created_date = 'NOT_A_DATE'` — a value that
+   parses as `NULL` under `TRY_TO_TIMESTAMP_NTZ` instead of raising an error (this is the exact
+   silent-failure mode the gate exists to catch; `TRY_` functions never throw, they just null out).
+2. **Ran** `sp_clean_layer()` then `sp_dq_checks()`. Result: `rows_in = rows_out = 145` (the bad
+   row loaded successfully — nothing was dropped), but `null_check_status = FAIL`.
+3. **Called** `sp_consumption_layer()` directly. Return value:
+   `'SKIPPED: 1 DQ failure(s) in the latest check batch. Consumption layer not refreshed.'`
+   The fact table was not touched — the gate didn't just log the problem, it blocked propagation.
+4. **Removed** the bad row and re-ran the full chain. `sp_consumption_layer()` correctly resumed
+   once the `FAIL` aged out of the 5-minute freshness window (see limitation below).
+
+This is what "turns 'the pipeline ran' into 'the pipeline ran *and* the data is trustworthy'"
+actually means in practice, not just as a claim — the claim that matters to an employer.
+
+**Known limitation, observed directly during this test:** `sp_consumption_layer()` checks for any
+`FAIL` in `dq_log` within the last 5 minutes — not scoped to the specific table it's about to
+build from. During the test above, re-running the (already-fixed) pipeline within that 5-minute
+window still returned `SKIPPED`, even though the underlying data was correct again. A more precise
+design would tie the skip check to a shared `batch_id` across all three procedures in a single run,
+rather than a blunt time window. Documented here as a real trade-off encountered during testing,
+not a theoretical one.
 
 ## 6. Orchestration
 
@@ -190,10 +221,24 @@ Scheduled on a cron (daily), with a manual trigger option documented for demo pu
 
 ## 7. CI/CD
 
-- All DDL, MERGE logic, Task definitions, and masking policies live as `.sql` files in `/sql`,
-  organized by layer.
-- Deployment via `schemachange` (or native Snowflake Git integration) triggered by a GitHub Actions
-  workflow on merge to `main`.
+- All DDL, MERGE logic, and Task/procedure definitions live as `.sql` files in `/sql`, organized
+  by layer, deployed in numbered order (`00` through `06`).
+- **Scope decision (deviated from initial plan):** originally scoped for `schemachange`, switched
+  to plain **Snowflake CLI** (`snow sql -f`) mid-build. `schemachange` requires versioned migration
+  filenames and a tracked changelog table — real value for a team, but a second thing to debug on
+  top of everything else in a solo build. Snowflake CLI running the existing numbered files in
+  order delivers the same genuine "push to GitHub, deploy to Snowflake automatically" claim without
+  the extra machinery.
+- Auth via RSA key-pair (`SNOWFLAKE_JWT`), key stored base64-encoded in a GitHub Actions secret to
+  avoid line-ending corruption on multi-line secrets — this specific failure mode (raw PEM-format
+  keys getting mangled by heredoc/shell handling) cost three separate debugging rounds during
+  setup and is worth knowing about if you're setting this up yourself.
+- Procedure bodies (`sp_clean_layer`, `sp_dq_checks`, `sp_consumption_layer`) are wrapped in `$$`
+  dollar-quoting — required because the CLI's file-runner splits statements on every semicolon,
+  which breaks naively on the semicolons inside a multi-statement `BEGIN...END` procedure body.
+  Snowsight doesn't have this problem (it understands procedure boundaries), which is why this
+  bug only appeared once deployment moved to CI/CD.
+- Deployment triggered by a GitHub Actions workflow on push to `main` (path-filtered to `sql/**`).
 - No manual "run this script in the Snowsight worksheet" step in the final version — that's the
   tutorial pattern this project deliberately moves past.
 
@@ -204,12 +249,12 @@ Streamlit-in-Snowflake · GitHub Actions · schemachange
 
 ## 9. Roadmap
 
-- [ ] Phase 0 — Environment setup (warehouse, database, schemas, file formats, stages)
-- [ ] Phase 1 — Stage layer: raw tables + streams for all 8 entities
-- [ ] Phase 2 — Clean layer: typed tables + MERGE + PII tags/masking
-- [ ] Phase 3 — Data quality gate + DQ_LOG
-- [ ] Phase 4 — Consumption layer: SCD2 dimensions + fact table
-- [ ] Phase 5 — Task orchestration (chained, scheduled)
-- [ ] Phase 6 — Streamlit dashboard + cost monitoring view
-- [ ] Phase 7 — CI/CD (schemachange + GitHub Actions)
-- [ ] Phase 8 — Documentation, ERD diagram, portfolio write-up
+- [x] Phase 0 — Environment setup (warehouse, database, schemas, file formats, stages)
+- [x] Phase 1 — Stage layer: raw tables + streams for all 9 entities (8 original + `delivery`)
+- [x] Phase 2 — Clean layer: typed tables + MERGE + PII tags
+- [x] Phase 3 — Data quality gate + DQ_LOG (tested against a real injected failure, see Section 5)
+- [x] Phase 4 — Consumption layer: SCD2 dimensions + fact table (delivery-performance KPIs included)
+- [x] Phase 5 — Task orchestration (chained, scheduled, `EXECUTE TASK`-verified)
+- [x] Phase 6 — Streamlit dashboard (Revenue, Delivery Performance, Pipeline Health, Cost Monitoring)
+- [x] Phase 7 — CI/CD (Snowflake CLI + GitHub Actions, RSA key-pair auth) — see Section 7 for scope note
+- [ ] Phase 8 — Documentation, ERD diagram, screen recording, portfolio write-up (in progress)
