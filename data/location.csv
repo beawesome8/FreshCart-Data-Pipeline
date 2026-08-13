@@ -1,0 +1,11 @@
+location_id,city,state,zipcode,active_flag,created_date,modified_date
+1,Munich,Bavaria,04332,Y,2025-09-20 08:48:57,2026-06-17 08:48:57
+2,Berlin,Berlin,81960,Y,2026-08-01 08:48:57,2025-07-30 08:48:57
+3,Hamburg,Hamburg,13389,Y,2026-03-26 08:48:57,2026-04-10 08:48:57
+4,Cologne,North Rhine-Westphalia,83863,Y,2026-04-21 08:48:57,2026-06-03 08:48:57
+5,Frankfurt,Hesse,94026,Y,2025-08-01 08:48:57,2026-06-22 08:48:57
+6,Stuttgart,Baden-Württemberg,42351,Y,2025-09-01 08:48:57,2025-07-30 08:48:57
+7,Düsseldorf,North Rhine-Westphalia,61559,Y,2025-11-07 08:48:57,2026-06-30 08:48:57
+8,Leipzig,Saxony,07816,Y,2025-10-15 08:48:57,2026-01-09 08:48:57
+9,Munich,Bavaria,84959,Y,2026-07-28 08:48:57,2026-07-29 08:48:57
+10,Berlin,Berlin,10341,Y,2026-06-27 08:48:57,2026-04-24 08:48:57

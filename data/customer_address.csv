@@ -1,0 +1,189 @@
+address_id,customer_id,flat_no,house_no,floor,building,landmark,locality,city,state,pincode,coordinates,primary_flag,address_type,created_date,modified_date
+1,1,13,34,9,Fechner Jopich Stiftung & Co. KG,Lia-Butte-Straße,Ville,Frankfurt,Hesse,50074,"-33.794349,-89.480474",Y,Home,2026-03-08 08:48:57,2025-10-31 08:48:57
+2,1,11,33,10,Wieloch,Adelheid-Zimmer-Gasse,Ville,Düsseldorf,North Rhine-Westphalia,66676,"-88.7466365,-159.746376",N,Home,2025-09-17 08:48:57,2025-09-04 08:48:57
+3,2,1,93,4,Gute,Austermühlering,Ville,Stuttgart,Baden-Württemberg,03354,"-55.3904005,-124.858944",Y,Home,2026-04-26 08:48:57,2026-02-20 08:48:57
+4,2,7,58,2,Paffrath Schacht GmbH,Carmelo-Bien-Ring,Ville,Leipzig,Saxony,89856,"-54.0861725,4.003289",N,Home,2026-07-05 08:48:57,2026-03-15 08:48:57
+5,3,11,34,9,Klemt Weitzel AG & Co. OHG,Trudi-Kusch-Gasse,Ville,Munich,Bavaria,23098,"-44.638503,-113.877914",Y,Work,2026-05-27 08:48:57,2026-05-22 08:48:57
+6,4,15,12,6,Trub Siering e.V.,Philipp-Schwital-Ring,Ville,Hamburg,Hamburg,10016,"29.269708,24.147185",Y,Work,2025-09-01 08:48:57,2025-08-10 08:48:57
+7,5,20,73,7,Rogge GbR,Tintzmannplatz,Ville,Leipzig,Saxony,46184,"77.181004,145.147457",Y,Home,2025-11-13 08:48:57,2026-04-13 08:48:57
+8,6,7,95,10,Etzler,Döhnstr.,Ville,Leipzig,Saxony,11739,"-36.3801835,-38.806218",Y,Work,2025-12-20 08:48:57,2025-07-16 08:48:57
+9,6,13,129,8,Gutknecht,Tlustekstraße,Ville,Frankfurt,Hesse,08737,"-1.254267,-54.100942",N,Work,2026-05-23 08:48:57,2026-05-03 08:48:57
+10,7,2,124,5,Aumann OHG mbH,Senta-Dörschner-Weg,Ville,Frankfurt,Hesse,18114,"82.962840,-55.896767",Y,Home,2025-08-14 08:48:57,2025-11-22 08:48:57
+11,8,3,42,4,Hübel Hettner GmbH & Co. KG,Eckhard-Gertz-Gasse,Ville,Frankfurt,Hesse,56110,"-87.4036055,-105.700050",Y,Work,2025-11-24 08:48:57,2026-05-30 08:48:57
+12,9,8,116,5,Seifert,Mattias-Klemt-Straße,Ville,Berlin,Berlin,55216,"17.441351,65.102343",Y,Home,2026-01-13 08:48:57,2026-07-17 08:48:57
+13,9,17,96,3,Krause Stumpf GmbH & Co. KGaA,Seipallee,Ville,Düsseldorf,North Rhine-Westphalia,20216,"68.578327,79.134085",N,Work,2026-07-03 08:48:57,2026-02-03 08:48:57
+14,10,11,26,10,Stiebitz,Girschnerstr.,Ville,Munich,Bavaria,90277,"-59.683577,40.806556",Y,Work,2026-05-31 08:48:57,2026-06-04 08:48:57
+15,11,16,36,7,Bien Bolnbach GbR,Aumannweg,Ville,Frankfurt,Hesse,88916,"87.6273015,-46.546244",Y,Work,2025-10-02 08:48:57,2026-08-11 08:48:57
+16,12,9,56,2,Kensy Spieß OHG mbH,Fischerallee,Ville,Munich,Bavaria,28772,"-69.9035145,83.951490",Y,Work,2026-06-18 08:48:57,2025-07-12 08:48:57
+17,13,10,32,0,Hendriks Kabus GbR,Amelie-Hauffer-Weg,Ville,Cologne,North Rhine-Westphalia,31779,"30.2855485,-132.744699",Y,Home,2026-01-11 08:48:57,2025-09-20 08:48:57
+18,13,3,29,7,Matthäi Jopich AG,Weinhageweg,Ville,Leipzig,Saxony,66088,"-89.9544425,-131.200825",N,Home,2025-09-24 08:48:57,2025-11-23 08:48:57
+19,14,10,110,0,Schönland,Pechelstr.,Ville,Hamburg,Hamburg,55037,"-0.8867775,120.728695",Y,Work,2026-04-12 08:48:57,2025-10-25 08:48:57
+20,15,3,135,5,Schinke,Trubinweg,Ville,Hamburg,Hamburg,11305,"5.331893,160.194253",Y,Home,2025-11-17 08:48:57,2025-11-08 08:48:57
+21,15,13,121,0,Rogge Preiß GmbH,Bartholomäus-Gehringer-Straße,Ville,Munich,Bavaria,14933,"-57.587546,30.934699",N,Work,2026-02-03 08:48:57,2026-04-06 08:48:57
+22,16,3,89,3,Mielcarek e.V.,Irene-Kambs-Gasse,Ville,Stuttgart,Baden-Württemberg,91779,"45.3445065,-107.717844",Y,Home,2025-07-14 08:48:57,2025-10-20 08:48:57
+23,17,2,91,8,Adolph Radisch Stiftung & Co. KGaA,Birgitta-Löwer-Weg,Ville,Hamburg,Hamburg,92216,"86.502166,142.415688",Y,Work,2025-09-18 08:48:57,2026-05-16 08:48:57
+24,17,16,47,2,Jungfer,Lindnerstr.,Ville,Leipzig,Saxony,65472,"-52.907587,41.591039",N,Home,2025-08-12 08:48:57,2025-07-12 08:48:57
+25,18,10,52,0,Thies,Tintzmannstr.,Ville,Munich,Bavaria,33945,"-54.3862045,169.012468",Y,Home,2026-07-23 08:48:57,2026-03-05 08:48:57
+26,18,17,102,8,Paffrath KG,Tröstgasse,Ville,Frankfurt,Hesse,99684,"23.3834775,-173.143882",N,Work,2026-04-06 08:48:57,2026-07-26 08:48:57
+27,19,12,13,10,Döring,Ralf-Fiebig-Gasse,Ville,Frankfurt,Hesse,42442,"-73.3481905,-21.547615",Y,Work,2026-03-27 08:48:57,2026-06-11 08:48:57
+28,20,13,113,6,Weller KG,Ortwin-Mentzel-Gasse,Ville,Düsseldorf,North Rhine-Westphalia,38406,"14.033409,43.642294",Y,Work,2026-05-10 08:48:57,2025-12-02 08:48:57
+29,20,12,133,4,Johann,Aleksej-Weimer-Ring,Ville,Leipzig,Saxony,35989,"-37.2607325,-76.116707",N,Home,2025-08-06 08:48:57,2026-01-08 08:48:57
+30,21,20,47,8,Meister Gierschner OHG mbH,Hans-Günter-Gerlach-Allee,Ville,Düsseldorf,North Rhine-Westphalia,06484,"-55.0855315,-93.601982",Y,Work,2026-03-02 08:48:57,2026-06-22 08:48:57
+31,22,10,79,7,Hermighausen,Max-Mohaupt-Allee,Ville,Stuttgart,Baden-Württemberg,25909,"87.6748015,-18.318738",Y,Work,2026-05-20 08:48:57,2025-08-25 08:48:57
+32,23,15,11,5,Zobel Ruppersberger KG,Briemerallee,Ville,Stuttgart,Baden-Württemberg,28182,"21.650692,111.563939",Y,Work,2026-03-26 08:48:57,2025-09-20 08:48:57
+33,23,3,104,5,Kusch,Nicolaus-Hartung-Platz,Ville,Munich,Bavaria,54398,"37.468505,121.364262",N,Home,2026-07-29 08:48:57,2026-06-01 08:48:57
+34,24,5,18,3,Anders,Grazyna-Kensy-Straße,Ville,Munich,Bavaria,05616,"-21.1219975,110.037699",Y,Work,2026-02-09 08:48:57,2026-01-29 08:48:57
+35,24,20,40,10,Holzapfel,Siegrid-Plath-Ring,Ville,Munich,Bavaria,04358,"-67.895563,-128.483783",N,Work,2026-02-05 08:48:57,2026-02-04 08:48:57
+36,25,19,36,8,Wirth KG,Erica-Bolzmann-Platz,Ville,Berlin,Berlin,13861,"-48.7268185,-167.247736",Y,Work,2026-01-22 08:48:57,2026-03-06 08:48:57
+37,25,8,30,0,Trupp Kabus AG,Claus-Dieter-Bloch-Platz,Ville,Frankfurt,Hesse,93466,"31.098123,158.345317",N,Home,2025-12-01 08:48:57,2025-11-21 08:48:57
+38,26,9,67,7,Löwer Jopich AG,Steinberggasse,Ville,Berlin,Berlin,90158,"-61.5094575,-24.395164",Y,Home,2025-10-04 08:48:57,2026-03-20 08:48:57
+39,26,7,32,2,Jacobi Jäckel,Karl-Otto-Wieloch-Straße,Ville,Leipzig,Saxony,07283,"-53.390382,29.912534",N,Home,2025-12-25 08:48:57,2026-05-17 08:48:57
+40,27,11,89,1,Hübel,Korbinian-Stey-Allee,Ville,Berlin,Berlin,88210,"-88.6498135,127.475955",Y,Work,2026-03-13 08:48:57,2026-05-25 08:48:57
+41,27,12,131,3,Kreusel,Leo-Häring-Allee,Ville,Hamburg,Hamburg,68222,"-30.7326805,151.187568",N,Home,2026-05-03 08:48:57,2026-06-03 08:48:57
+42,28,1,93,8,Gude Drewes AG & Co. KGaA,Miroslawa-Weitzel-Weg,Ville,Leipzig,Saxony,41413,"65.852459,81.558356",Y,Work,2025-12-17 08:48:57,2025-11-04 08:48:57
+43,29,3,80,6,Klemm Eckbauer OHG mbH,Eckhard-Hölzenbecher-Weg,Ville,Berlin,Berlin,57759,"87.0123125,-15.891721",Y,Work,2025-11-17 08:48:57,2026-01-15 08:48:57
+44,30,5,82,10,Sauer,Carola-Rosenow-Ring,Ville,Berlin,Berlin,20533,"82.023786,54.142326",Y,Home,2025-12-26 08:48:57,2025-12-18 08:48:57
+45,30,5,142,10,Klingelhöfer Eimer OHG mbH,Naserstraße,Ville,Stuttgart,Baden-Württemberg,47812,"83.2889395,145.680750",N,Home,2025-07-16 08:48:57,2026-06-08 08:48:57
+46,31,4,133,2,Holt AG & Co. KG,Jorge-Wagner-Allee,Ville,Munich,Bavaria,08099,"18.752454,136.773334",Y,Work,2026-05-21 08:48:57,2026-05-23 08:48:57
+47,31,8,89,8,Beier KG,Ringstr.,Ville,Stuttgart,Baden-Württemberg,56394,"-54.0615235,69.484527",N,Work,2026-07-04 08:48:57,2026-04-07 08:48:57
+48,32,5,78,9,Pergande,Robert-Knappe-Weg,Ville,Frankfurt,Hesse,92827,"-47.2590575,-83.822163",Y,Home,2025-11-29 08:48:57,2025-09-19 08:48:57
+49,33,6,87,9,Rosemann,Jelena-Wagenknecht-Straße,Ville,Hamburg,Hamburg,37314,"9.169502,-54.362181",Y,Home,2026-07-30 08:48:57,2026-07-03 08:48:57
+50,34,7,147,6,Staude AG & Co. OHG,Kraushaarstraße,Ville,Frankfurt,Hesse,05184,"-19.316631,130.650386",Y,Home,2025-12-02 08:48:57,2025-09-26 08:48:57
+51,35,16,63,10,Roskoth,Pierre-Söding-Straße,Ville,Frankfurt,Hesse,84638,"18.942436,9.460672",Y,Work,2026-03-14 08:48:57,2025-12-24 08:48:57
+52,35,2,41,7,Neuschäfer Zorbach GmbH & Co. KGaA,Aline-Etzold-Straße,Ville,Berlin,Berlin,18432,"-39.827890,-95.519416",N,Work,2025-12-09 08:48:57,2025-12-19 08:48:57
+53,36,20,37,5,Schleich Trupp AG,Sedat-Kabus-Allee,Ville,Stuttgart,Baden-Württemberg,77392,"83.7473265,40.599832",Y,Work,2025-08-03 08:48:57,2026-02-18 08:48:57
+54,37,12,132,8,Henk AG,Christel-Scheel-Platz,Ville,Hamburg,Hamburg,92024,"-41.671541,97.369357",Y,Home,2026-03-03 08:48:57,2026-04-12 08:48:57
+55,37,4,69,7,Scheuermann Rose KGaA,Priska-Tschentscher-Allee,Ville,Leipzig,Saxony,37977,"-44.2138275,-62.229952",N,Home,2026-06-02 08:48:57,2026-06-25 08:48:57
+56,38,13,108,3,Schinke Fechner e.V.,Emilia-Sorgatz-Weg,Ville,Frankfurt,Hesse,57991,"-28.309832,23.050675",Y,Home,2026-02-27 08:48:57,2025-10-22 08:48:57
+57,39,6,128,8,Eigenwillig Dörr AG,Annedore-Pärtzelt-Allee,Ville,Cologne,North Rhine-Westphalia,91279,"71.0112915,-159.042405",Y,Work,2025-12-01 08:48:57,2026-03-09 08:48:57
+58,39,1,24,6,Paffrath,Dogan-Nerger-Allee,Ville,Leipzig,Saxony,68650,"52.221538,50.294142",N,Work,2026-04-12 08:48:57,2026-04-25 08:48:57
+59,40,2,73,7,Nerger e.V.,Killerstr.,Ville,Munich,Bavaria,24731,"-13.961183,141.205757",Y,Work,2026-03-20 08:48:57,2025-11-12 08:48:57
+60,40,4,111,2,Lange,Grafgasse,Ville,Munich,Bavaria,80635,"19.748515,14.492112",N,Work,2025-08-06 08:48:57,2026-02-07 08:48:57
+61,41,2,103,0,Förster GmbH & Co. KG,Heßallee,Ville,Stuttgart,Baden-Württemberg,94636,"58.204543,119.339183",Y,Home,2026-02-09 08:48:57,2025-11-03 08:48:57
+62,41,3,99,8,Gieß Koch II KG,Herrmannring,Ville,Frankfurt,Hesse,21372,"-63.081663,-64.863664",N,Work,2025-07-18 08:48:57,2025-11-05 08:48:57
+63,42,5,25,6,Kühnert,Rognerstr.,Ville,Berlin,Berlin,60127,"71.1271585,53.741483",Y,Work,2026-02-21 08:48:57,2025-11-01 08:48:57
+64,42,5,51,9,Bolnbach GbR,Pawel-Budig-Weg,Ville,Stuttgart,Baden-Württemberg,69849,"-74.574886,-85.902032",N,Work,2025-11-30 08:48:57,2026-07-24 08:48:57
+65,43,5,86,7,Oderwald,Atzlerplatz,Ville,Munich,Bavaria,09883,"75.138805,-89.009565",Y,Work,2026-05-29 08:48:57,2025-10-07 08:48:57
+66,44,20,82,2,Beier,Henckweg,Ville,Stuttgart,Baden-Württemberg,14656,"18.8374155,134.649393",Y,Work,2025-10-02 08:48:57,2025-07-31 08:48:57
+67,45,17,131,8,Pohl AG,Sofia-Conradi-Weg,Ville,Stuttgart,Baden-Württemberg,54393,"32.0734415,36.872478",Y,Work,2025-08-16 08:48:57,2025-10-29 08:48:57
+68,45,16,5,5,Adolph,Gertzstraße,Ville,Frankfurt,Hesse,84518,"-20.8259585,108.784681",N,Work,2025-09-03 08:48:57,2026-06-18 08:48:57
+69,46,1,122,4,Hermann,Kostolzinstr.,Ville,Frankfurt,Hesse,57790,"39.3778815,-117.578931",Y,Home,2025-08-09 08:48:57,2026-07-18 08:48:57
+70,46,6,135,10,Börner Kranz KGaA,Gülsen-Tintzmann-Platz,Ville,Leipzig,Saxony,58804,"-23.358855,-25.762580",N,Work,2026-05-30 08:48:57,2025-08-30 08:48:57
+71,47,19,29,3,Kuhl OHG mbH,Bruderstr.,Ville,Munich,Bavaria,55394,"-40.9341735,-77.904603",Y,Home,2025-12-31 08:48:57,2026-03-06 08:48:57
+72,48,14,53,6,Walter Gute GbR,Paola-Hettner-Platz,Ville,Hamburg,Hamburg,39521,"-57.8203635,-137.862305",Y,Work,2025-08-02 08:48:57,2025-08-06 08:48:57
+73,48,5,133,3,Spieß,Schmiedeckegasse,Ville,Munich,Bavaria,59579,"-16.2519125,83.499117",N,Work,2025-09-08 08:48:57,2025-12-12 08:48:57
+74,49,6,118,8,Wieloch GmbH & Co. OHG,Kruschwitzplatz,Ville,Stuttgart,Baden-Württemberg,86780,"44.882162,6.449343",Y,Work,2025-11-07 08:48:57,2026-02-13 08:48:57
+75,49,20,124,3,Striebitz Wulf AG & Co. KGaA,Dussen vanweg,Ville,Frankfurt,Hesse,00369,"-62.9557105,-5.282771",N,Home,2026-03-24 08:48:57,2025-11-01 08:48:57
+76,50,10,74,3,Schmidtke Heser AG & Co. KGaA,Hellwigring,Ville,Cologne,North Rhine-Westphalia,52763,"22.499404,19.882210",Y,Work,2026-03-04 08:48:57,2025-12-11 08:48:57
+77,50,18,71,4,Kühnert Holt GmbH & Co. KG,Chantal-Eigenwillig-Weg,Ville,Stuttgart,Baden-Württemberg,43866,"-37.3696805,-101.700742",N,Home,2025-10-24 08:48:57,2025-09-01 08:48:57
+78,51,12,38,4,Fischer,Andersplatz,Ville,Düsseldorf,North Rhine-Westphalia,28857,"-9.4601875,-45.259344",Y,Home,2026-03-19 08:48:57,2025-08-13 08:48:57
+79,51,12,114,10,Rosenow,Rocco-Dippel-Allee,Ville,Berlin,Berlin,34717,"-0.166320,-40.537516",N,Work,2025-07-27 08:48:57,2025-12-11 08:48:57
+80,52,18,70,8,Klingelhöfer Römer KG,Kaulgasse,Ville,Cologne,North Rhine-Westphalia,59399,"84.4469365,168.499524",Y,Work,2026-06-04 08:48:57,2026-06-19 08:48:57
+81,53,2,136,3,Gertz,Klappring,Ville,Cologne,North Rhine-Westphalia,16947,"79.5739495,-102.235143",Y,Home,2026-07-18 08:48:57,2026-06-23 08:48:57
+82,54,16,26,10,Schwital e.V.,Linkeweg,Ville,Stuttgart,Baden-Württemberg,12535,"-4.9386445,170.583739",Y,Home,2026-08-11 08:48:57,2025-11-05 08:48:57
+83,54,14,122,7,Tröst Hethur KG,Hillerstraße,Ville,Hamburg,Hamburg,62202,"-27.0177425,175.420649",N,Home,2025-07-22 08:48:57,2026-03-19 08:48:57
+84,55,2,23,10,Weimer Thies Stiftung & Co. KGaA,Heiko-Geisel-Straße,Ville,Frankfurt,Hesse,17800,"16.5722365,101.311118",Y,Home,2025-11-13 08:48:57,2025-07-31 08:48:57
+85,55,6,107,2,Döhn GbR,Dennis-Sölzer-Straße,Ville,Munich,Bavaria,34722,"51.396318,-88.405534",N,Home,2026-01-22 08:48:57,2025-12-03 08:48:57
+86,56,2,3,4,Beer OHG mbH,Junkallee,Ville,Frankfurt,Hesse,84872,"54.7639055,-84.954178",Y,Home,2026-02-23 08:48:57,2026-03-21 08:48:57
+87,57,5,130,7,Schenk,Schülerweg,Ville,Leipzig,Saxony,57831,"28.6109735,-14.714527",Y,Work,2026-05-07 08:48:57,2026-06-17 08:48:57
+88,57,6,118,10,Lehmann Heß AG & Co. KG,Atzlergasse,Ville,Stuttgart,Baden-Württemberg,47807,"38.061717,-19.147828",N,Work,2025-08-11 08:48:57,2026-05-10 08:48:57
+89,58,10,146,10,Wilms GmbH & Co. KG,Schenkplatz,Ville,Stuttgart,Baden-Württemberg,36866,"-22.919021,-92.345359",Y,Home,2026-05-16 08:48:57,2025-10-05 08:48:57
+90,59,17,84,1,Walter,Kostolzinplatz,Ville,Düsseldorf,North Rhine-Westphalia,63894,"-13.582640,168.137720",Y,Work,2025-09-05 08:48:57,2026-06-26 08:48:57
+91,59,5,123,5,Reichmann,Lehmannplatz,Ville,Hamburg,Hamburg,24179,"31.538779,-33.899104",N,Home,2026-08-10 08:48:57,2026-04-02 08:48:57
+92,60,15,69,5,Scholtz,Grafring,Ville,Cologne,North Rhine-Westphalia,08021,"-14.2704555,-35.476961",Y,Work,2025-10-19 08:48:57,2025-08-08 08:48:57
+93,60,9,93,3,Trubin GmbH & Co. KG,Holger-Conradi-Platz,Ville,Munich,Bavaria,35647,"9.6961445,68.938702",N,Home,2025-09-06 08:48:57,2026-06-14 08:48:57
+94,61,6,104,10,Zorbach,Max-Butte-Platz,Ville,Frankfurt,Hesse,61872,"-38.4087745,-45.739609",Y,Work,2025-08-25 08:48:57,2026-06-14 08:48:57
+95,61,12,57,3,Aumann Eberhardt e.G.,Raymond-Winkler-Straße,Ville,Frankfurt,Hesse,37183,"36.9231415,28.908796",N,Home,2025-12-12 08:48:57,2026-05-27 08:48:57
+96,62,14,141,7,Jockel,Freudenbergerweg,Ville,Stuttgart,Baden-Württemberg,47435,"-76.017866,177.929037",Y,Home,2025-07-19 08:48:57,2026-04-09 08:48:57
+97,62,17,115,8,Dowerg GbR,Junkgasse,Ville,Berlin,Berlin,91630,"-78.727491,131.963351",N,Work,2026-07-05 08:48:57,2025-10-29 08:48:57
+98,63,18,130,3,Mülichen,Pedro-Winkler-Gasse,Ville,Munich,Bavaria,71950,"-73.954236,10.867099",Y,Home,2026-05-21 08:48:57,2026-02-27 08:48:57
+99,64,7,150,7,Fliegner,Fedor-Neuschäfer-Platz,Ville,Berlin,Berlin,73065,"-53.8331075,-45.408481",Y,Home,2025-11-25 08:48:57,2025-12-28 08:48:57
+100,64,15,34,8,Neureuther Stiftung & Co. KG,Römerring,Ville,Munich,Bavaria,92855,"35.733750,-32.186308",N,Work,2025-12-23 08:48:57,2025-10-29 08:48:57
+101,65,10,6,6,Röhrdanz,Christian-Radisch-Platz,Ville,Leipzig,Saxony,48570,"81.268816,91.633989",Y,Work,2026-08-12 08:48:57,2025-07-28 08:48:57
+102,66,2,109,5,Wagner Gorlitz AG,Wulfstr.,Ville,Berlin,Berlin,18638,"43.5598345,116.067024",Y,Home,2025-11-09 08:48:57,2026-07-14 08:48:57
+103,67,2,74,6,Schmidtke GmbH,Langeweg,Ville,Leipzig,Saxony,18102,"-42.0470125,-163.210032",Y,Home,2025-07-16 08:48:57,2026-06-05 08:48:57
+104,68,13,115,6,Döring GmbH & Co. KGaA,Eckart-Beckmann-Weg,Ville,Stuttgart,Baden-Württemberg,89940,"8.342409,-61.500357",Y,Work,2026-07-03 08:48:57,2025-08-29 08:48:57
+105,68,12,31,2,Trupp,Aleksej-Hänel-Allee,Ville,Hamburg,Hamburg,70586,"9.071110,-148.700414",N,Work,2025-11-16 08:48:57,2026-06-09 08:48:57
+106,69,1,77,7,Hethur,Jasmina-Boucsein-Ring,Ville,Munich,Bavaria,81138,"13.4365265,-78.284213",Y,Work,2025-11-14 08:48:57,2026-01-31 08:48:57
+107,70,15,89,2,Putz OHG mbH,Catrin-Schomber-Platz,Ville,Cologne,North Rhine-Westphalia,95761,"-45.222465,-83.150348",Y,Work,2026-05-09 08:48:57,2025-08-07 08:48:57
+108,71,14,5,3,Kühnert,Sontagplatz,Ville,Munich,Bavaria,58556,"79.9842885,51.170208",Y,Home,2026-07-10 08:48:57,2026-06-23 08:48:57
+109,72,20,13,3,Junitz,Carina-Ritter-Platz,Ville,Leipzig,Saxony,57760,"-80.6952485,-27.269799",Y,Home,2026-01-20 08:48:57,2026-01-01 08:48:57
+110,73,2,36,8,Bachmann,Romy-Jacobi Jäckel-Gasse,Ville,Cologne,North Rhine-Westphalia,35048,"47.2433945,118.673680",Y,Work,2026-04-16 08:48:57,2025-08-04 08:48:57
+111,74,8,78,2,Rudolph,Dominik-Bender-Straße,Ville,Stuttgart,Baden-Württemberg,24593,"-27.456110,-42.430139",Y,Home,2026-01-14 08:48:57,2026-03-13 08:48:57
+112,74,2,143,9,Davids Rudolph GmbH,Jasmina-Buchholz-Allee,Ville,Frankfurt,Hesse,27919,"82.4039135,-18.727599",N,Home,2025-09-27 08:48:57,2025-08-31 08:48:57
+113,75,2,89,10,Wagenknecht e.V.,Budigallee,Ville,Leipzig,Saxony,56613,"85.2290765,143.358226",Y,Work,2025-11-18 08:48:57,2026-03-03 08:48:57
+114,75,14,39,4,Schulz e.G.,Blochring,Ville,Düsseldorf,North Rhine-Westphalia,89258,"-30.7302085,-97.752728",N,Work,2026-05-11 08:48:57,2025-07-23 08:48:57
+115,76,8,77,2,Steinberg Stiftung & Co. KGaA,Matthäiallee,Ville,Cologne,North Rhine-Westphalia,64622,"0.2394585,-135.683930",Y,Work,2026-07-15 08:48:57,2025-10-30 08:48:57
+116,76,14,143,8,Rudolph Weinhage AG,Hessegasse,Ville,Düsseldorf,North Rhine-Westphalia,22783,"40.9592165,32.235166",N,Home,2026-01-27 08:48:57,2026-04-11 08:48:57
+117,77,11,21,7,Rudolph,Camilla-Schmiedt-Allee,Ville,Cologne,North Rhine-Westphalia,14659,"-65.9496185,-119.585987",Y,Work,2026-06-27 08:48:57,2025-11-12 08:48:57
+118,77,2,69,6,Lehmann,Kobeltring,Ville,Cologne,North Rhine-Westphalia,59042,"3.8762805,150.831126",N,Home,2026-07-07 08:48:57,2026-05-09 08:48:57
+119,78,7,86,4,Scholz Fiebig GmbH & Co. KG,Stefanie-Heintze-Platz,Ville,Leipzig,Saxony,11039,"-50.358238,-25.550243",Y,Home,2026-04-27 08:48:57,2026-05-08 08:48:57
+120,79,8,53,6,Karz Stiftung & Co. KG,Leo-Mende-Straße,Ville,Leipzig,Saxony,38338,"50.463114,-41.134043",Y,Home,2025-11-04 08:48:57,2026-03-02 08:48:57
+121,80,15,137,10,Nette,Henrike-Thanel-Allee,Ville,Düsseldorf,North Rhine-Westphalia,98042,"-73.8643315,-27.521391",Y,Work,2026-03-09 08:48:57,2026-04-02 08:48:57
+122,80,17,128,7,Zobel Stiftung & Co. KG,Blochstraße,Ville,Stuttgart,Baden-Württemberg,64510,"-11.4838165,168.649954",N,Home,2025-08-09 08:48:57,2025-12-16 08:48:57
+123,81,12,81,6,Heinrich Kramer GmbH & Co. OHG,Sara-Jopich-Straße,Ville,Cologne,North Rhine-Westphalia,38780,"-79.329046,-47.182360",Y,Home,2025-10-29 08:48:57,2026-04-22 08:48:57
+124,81,1,67,8,Jäkel,Niemeierstraße,Ville,Hamburg,Hamburg,55543,"44.553664,-31.888980",N,Work,2026-03-15 08:48:57,2026-05-27 08:48:57
+125,82,8,98,9,Schomber GbR,Beckerstr.,Ville,Stuttgart,Baden-Württemberg,25621,"12.597942,99.558263",Y,Home,2025-12-01 08:48:57,2025-11-05 08:48:57
+126,83,16,126,7,Schmidtke,Sergei-Hendriks-Weg,Ville,Frankfurt,Hesse,49578,"-54.627688,-68.998036",Y,Home,2025-08-03 08:48:57,2026-02-14 08:48:57
+127,83,5,140,7,Etzler,Nelly-Etzler-Ring,Ville,Hamburg,Hamburg,29251,"59.6098975,106.131548",N,Home,2025-11-09 08:48:57,2025-09-19 08:48:57
+128,84,3,13,0,Drubin,Manuel-Fiebig-Allee,Ville,Munich,Bavaria,66474,"-49.2093395,-79.103913",Y,Work,2026-06-04 08:48:57,2025-09-25 08:48:57
+129,85,5,3,3,Eigenwillig AG & Co. KGaA,Klothilde-Schmidtke-Weg,Ville,Berlin,Berlin,93305,"-68.665978,75.873869",Y,Work,2026-02-03 08:48:57,2026-07-14 08:48:57
+130,86,1,2,8,Paffrath KG,Trubweg,Ville,Leipzig,Saxony,67722,"-38.1222085,-58.520576",Y,Work,2026-08-07 08:48:57,2026-08-05 08:48:57
+131,86,18,74,0,Lange e.G.,Stephanie-Hiller-Straße,Ville,Frankfurt,Hesse,31279,"41.518044,-5.572992",N,Work,2026-05-14 08:48:57,2026-06-20 08:48:57
+132,87,8,50,9,Hentschel Loos GmbH,Editha-Wähner-Straße,Ville,Hamburg,Hamburg,99988,"82.172843,-159.324042",Y,Work,2026-02-13 08:48:57,2026-03-30 08:48:57
+133,88,12,104,7,Dörr,Meyerallee,Ville,Berlin,Berlin,88608,"13.9913195,97.093403",Y,Home,2025-08-22 08:48:57,2026-04-20 08:48:57
+134,88,3,9,1,Binner,Klaus-D.-Mans-Straße,Ville,Frankfurt,Hesse,72649,"-75.357742,97.545966",N,Work,2026-01-31 08:48:57,2026-02-01 08:48:57
+135,89,1,44,1,Mitschke KGaA,Conradiweg,Ville,Munich,Bavaria,98266,"-3.171618,62.067503",Y,Work,2026-01-03 08:48:57,2025-09-17 08:48:57
+136,89,19,25,8,Gieß GmbH & Co. KG,Rebecca-Metz-Gasse,Ville,Stuttgart,Baden-Württemberg,21117,"80.207519,14.853751",N,Home,2026-04-18 08:48:57,2026-04-27 08:48:57
+137,90,2,20,10,Pruschke Stiftung & Co. KG,Vogtallee,Ville,Frankfurt,Hesse,86025,"61.797988,174.082654",Y,Work,2025-11-08 08:48:57,2025-10-29 08:48:57
+138,90,6,81,0,Fröhlich AG & Co. KG,Krystyna-Trub-Gasse,Ville,Munich,Bavaria,47421,"-54.6816705,-71.094820",N,Home,2025-10-17 08:48:57,2026-06-01 08:48:57
+139,91,10,42,9,Scholtz e.G.,Aumannstraße,Ville,Berlin,Berlin,80973,"-31.7833705,136.143053",Y,Home,2025-10-27 08:48:57,2026-01-26 08:48:57
+140,91,13,36,1,Mülichen,Langestraße,Ville,Stuttgart,Baden-Württemberg,38498,"-34.2627055,-153.736918",N,Work,2026-07-17 08:48:57,2026-06-24 08:48:57
+141,92,3,88,9,Finke AG,Beierplatz,Ville,Cologne,North Rhine-Westphalia,51016,"-42.1518105,-93.383811",Y,Work,2025-07-13 08:48:57,2026-02-27 08:48:57
+142,92,9,116,7,Hölzenbecher,Waltraud-Meyer-Allee,Ville,Munich,Bavaria,14556,"-71.835865,49.417736",N,Home,2026-02-12 08:48:57,2025-11-03 08:48:57
+143,93,6,150,10,Bolzmann,Mudeplatz,Ville,Düsseldorf,North Rhine-Westphalia,58683,"-33.883305,148.593854",Y,Work,2026-07-01 08:48:57,2025-07-14 08:48:57
+144,93,8,19,1,Dörr KG,Yilmaz-Ullrich-Allee,Ville,Frankfurt,Hesse,95489,"77.300826,9.973566",N,Work,2026-05-27 08:48:57,2026-01-31 08:48:57
+145,94,11,93,1,Schmiedecke KG,Pölitzweg,Ville,Düsseldorf,North Rhine-Westphalia,29343,"-89.575626,-116.538025",Y,Home,2026-08-11 08:48:57,2026-03-09 08:48:57
+146,95,9,27,2,Mohaupt KGaA,Jessica-Hänel-Weg,Ville,Stuttgart,Baden-Württemberg,05583,"-86.9674135,163.929338",Y,Home,2026-05-10 08:48:57,2026-01-05 08:48:57
+147,95,18,143,8,Stumpf GmbH,Zobelgasse,Ville,Leipzig,Saxony,88501,"-0.535055,3.267104",N,Work,2026-06-22 08:48:57,2026-07-31 08:48:57
+148,96,18,24,9,Ullrich Roskoth KG,Marlene-Gertz-Platz,Ville,Stuttgart,Baden-Württemberg,77027,"-48.2888105,156.725697",Y,Work,2026-01-28 08:48:57,2026-08-07 08:48:57
+149,97,13,22,8,Reising Käster GmbH & Co. KG,Weimergasse,Ville,Düsseldorf,North Rhine-Westphalia,88039,"-0.954782,9.835163",Y,Home,2025-10-25 08:48:57,2025-11-20 08:48:57
+150,97,13,44,2,Fischer GbR,Mikhail-Kohl-Allee,Ville,Hamburg,Hamburg,29145,"-81.509866,-34.240936",N,Work,2026-03-12 08:48:57,2026-03-29 08:48:57
+151,98,3,43,6,Christoph Oestrovsky GbR,Mentzelallee,Ville,Hamburg,Hamburg,84215,"-79.961848,-71.499243",Y,Work,2026-01-10 08:48:57,2026-03-13 08:48:57
+152,98,3,93,4,Martin GmbH & Co. OHG,Luisa-Nette-Weg,Ville,Leipzig,Saxony,57845,"-51.5345295,-127.251596",N,Home,2025-08-09 08:48:57,2025-09-27 08:48:57
+153,99,15,28,2,Stey,Harm-Ullrich-Gasse,Ville,Cologne,North Rhine-Westphalia,81040,"69.527856,-133.251485",Y,Work,2026-08-10 08:48:57,2026-01-23 08:48:57
+154,99,20,98,5,Mosemann Bien AG,Barkholzstr.,Ville,Stuttgart,Baden-Württemberg,53344,"52.8816995,-8.657762",N,Work,2026-02-23 08:48:57,2026-01-05 08:48:57
+155,100,11,52,7,Steckel Drubin GbR,Gilbert-Höfig-Gasse,Ville,Frankfurt,Hesse,38585,"-17.2400045,-104.002259",Y,Work,2026-05-15 08:48:57,2026-01-22 08:48:57
+156,101,16,148,3,Hölzenbecher,Günter-Boucsein-Ring,Ville,Frankfurt,Hesse,02070,"-61.565460,25.943489",Y,Work,2026-02-02 08:48:57,2026-03-23 08:48:57
+157,101,12,30,9,Christoph GmbH & Co. KG,Gießweg,Ville,Düsseldorf,North Rhine-Westphalia,45381,"35.009147,124.829560",N,Home,2025-10-14 08:48:57,2025-11-07 08:48:57
+158,102,15,54,7,Davids e.V.,Dietzstraße,Ville,Munich,Bavaria,73329,"-20.7294895,15.125381",Y,Work,2025-08-24 08:48:57,2026-07-09 08:48:57
+159,103,5,78,3,Gnatz Thies OHG mbH,Zirmeallee,Ville,Leipzig,Saxony,70171,"4.3391765,76.974380",Y,Work,2025-09-10 08:48:57,2026-05-27 08:48:57
+160,103,13,19,7,Geißler Holzapfel e.G.,Schleichstr.,Ville,Düsseldorf,North Rhine-Westphalia,61581,"-8.900784,106.015597",N,Work,2025-10-19 08:48:57,2026-01-20 08:48:57
+161,104,12,138,9,Kühnert Schäfer GmbH & Co. KG,Elsbeth-Henk-Weg,Ville,Munich,Bavaria,61539,"25.735543,53.728743",Y,Home,2026-06-19 08:48:57,2025-07-16 08:48:57
+162,104,12,43,10,Zirme,Ringweg,Ville,Cologne,North Rhine-Westphalia,19719,"70.0077975,68.522074",N,Home,2025-10-29 08:48:57,2025-09-17 08:48:57
+163,105,14,28,0,Röhricht Dietz GmbH & Co. KG,Leopold-Lachmann-Gasse,Ville,Stuttgart,Baden-Württemberg,57013,"-52.7098225,131.797387",Y,Home,2026-04-03 08:48:57,2026-04-22 08:48:57
+164,105,15,96,6,Ackermann,Gesa-Fischer-Straße,Ville,Cologne,North Rhine-Westphalia,99733,"-5.0139475,-19.080820",N,Work,2025-07-14 08:48:57,2025-08-31 08:48:57
+165,106,1,124,1,Stiebitz,Lübsweg,Ville,Stuttgart,Baden-Württemberg,90986,"-55.7595285,-22.060811",Y,Work,2026-01-13 08:48:57,2026-07-01 08:48:57
+166,107,12,80,5,Koch II KG,Abdul-Tlustek-Weg,Ville,Hamburg,Hamburg,40369,"15.835596,155.659372",Y,Work,2026-04-30 08:48:57,2025-11-20 08:48:57
+167,108,16,25,7,Trub Kranz GmbH,Lübsstr.,Ville,Stuttgart,Baden-Württemberg,72386,"6.714043,44.001601",Y,Work,2026-03-03 08:48:57,2026-07-10 08:48:57
+168,108,2,30,0,Hövel OHG mbH,Franz-Atzler-Gasse,Ville,Frankfurt,Hesse,76212,"82.400764,43.260700",N,Work,2025-09-16 08:48:57,2026-06-19 08:48:57
+169,109,17,45,8,Zirme Textor KG,Scholzplatz,Ville,Cologne,North Rhine-Westphalia,87653,"-40.1270985,48.047654",Y,Home,2026-02-25 08:48:57,2025-10-31 08:48:57
+170,110,8,104,10,Albers,Wagenknechtplatz,Ville,Leipzig,Saxony,89500,"62.511490,79.452602",Y,Home,2026-05-10 08:48:57,2025-09-20 08:48:57
+171,110,13,8,9,Koch,Cläre-Nerger-Allee,Ville,Düsseldorf,North Rhine-Westphalia,84781,"50.4875185,147.529166",N,Home,2025-12-26 08:48:57,2025-10-14 08:48:57
+172,111,1,55,3,Henschel GmbH & Co. KGaA,Hedi-Schulz-Weg,Ville,Düsseldorf,North Rhine-Westphalia,58077,"47.6169545,71.917223",Y,Work,2025-07-24 08:48:57,2025-08-18 08:48:57
+173,111,19,27,8,Wagner,Linkering,Ville,Berlin,Berlin,20949,"-20.0878265,-147.026592",N,Home,2026-02-07 08:48:57,2026-02-28 08:48:57
+174,112,4,68,10,Mühle,Christa-Maria-Birnbaum-Allee,Ville,Leipzig,Saxony,47128,"-69.3674455,-30.831063",Y,Work,2025-11-16 08:48:57,2025-09-20 08:48:57
+175,113,20,101,9,Eigenwillig Schmiedt GbR,Hertrampfgasse,Ville,Düsseldorf,North Rhine-Westphalia,92752,"-19.870544,-53.193301",Y,Home,2026-02-16 08:48:57,2026-02-14 08:48:57
+176,113,20,45,10,Girschner Rädel AG,Casparplatz,Ville,Leipzig,Saxony,66372,"-33.3985735,130.181138",N,Work,2025-10-03 08:48:57,2025-10-15 08:48:57
+177,114,11,31,3,Kaul,Franca-Hettner-Gasse,Ville,Hamburg,Hamburg,76747,"52.9474725,-54.554040",Y,Work,2026-06-15 08:48:57,2026-05-12 08:48:57
+178,115,17,100,6,Stoll Trapp GmbH,Hesseplatz,Ville,Hamburg,Hamburg,47658,"-78.989418,-127.727931",Y,Home,2025-10-23 08:48:57,2026-01-29 08:48:57
+179,115,6,125,10,Schweitzer,Löwerstr.,Ville,Düsseldorf,North Rhine-Westphalia,44149,"14.9995395,67.555790",N,Home,2025-11-02 08:48:57,2026-05-20 08:48:57
+180,116,5,48,5,Weiß,Jasmina-Steinberg-Weg,Ville,Frankfurt,Hesse,25800,"-71.759285,-173.578265",Y,Work,2025-09-30 08:48:57,2026-07-17 08:48:57
+181,116,1,125,2,Dippel Pruschke AG,Killerplatz,Ville,Stuttgart,Baden-Württemberg,30091,"-74.7308795,138.975721",N,Home,2026-01-29 08:48:57,2025-10-30 08:48:57
+182,117,16,107,7,Harloff,Ina-Dussen van-Gasse,Ville,Düsseldorf,North Rhine-Westphalia,92124,"-10.9273395,70.694867",Y,Work,2026-05-20 08:48:57,2026-07-02 08:48:57
+183,117,8,75,0,Bruder,Hofmannallee,Ville,Munich,Bavaria,42140,"12.7568255,28.622899",N,Work,2026-04-20 08:48:57,2025-11-11 08:48:57
+184,118,15,145,7,Bonbach Heser GbR,Thies-Bohnbach-Straße,Ville,Hamburg,Hamburg,27128,"25.763751,-62.754642",Y,Home,2025-10-24 08:48:57,2026-06-16 08:48:57
+185,118,18,94,8,Seifert,Siglinde-Margraf-Allee,Ville,Frankfurt,Hesse,01194,"29.6905535,-169.925731",N,Home,2025-07-20 08:48:57,2025-08-10 08:48:57
+186,119,14,27,10,Fischer Söding KGaA,Sybilla-Bender-Allee,Ville,Cologne,North Rhine-Westphalia,25690,"48.3470715,83.431527",Y,Home,2026-03-14 08:48:57,2026-07-28 08:48:57
+187,119,9,90,1,Mälzer Kusch Stiftung & Co. KGaA,Aynur-Hecker-Gasse,Ville,Leipzig,Saxony,19855,"-8.710207,35.078433",N,Work,2026-06-14 08:48:57,2025-07-12 08:48:57
+188,120,19,90,9,Schüler KGaA,Paolo-Reinhardt-Ring,Ville,Cologne,North Rhine-Westphalia,43280,"13.1231505,174.728912",Y,Work,2026-05-21 08:48:57,2025-10-02 08:48:57

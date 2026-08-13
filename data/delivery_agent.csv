@@ -1,0 +1,31 @@
+delivery_agent_id,name,phone,vehicle_type,location_id,status,gender,rating,created_date,modified_date
+1,Salvatore Trommler,(05704) 33154,Scooter,2,Inactive,Female,3.23,2026-03-24 08:48:57,2025-10-24 08:48:57
+2,Osman Ackermann,+49(0)6762676586,Scooter,7,Active,Female,3.06,2026-03-27 08:48:57,2025-08-19 08:48:57
+3,Sebastiano Naser,(03271) 040541,Bicycle,6,Inactive,Male,3.36,2026-06-01 08:48:57,2025-10-28 08:48:57
+4,Günter Geißler,0218159970,Car,2,Active,Male,3.18,2025-11-15 08:48:57,2026-04-25 08:48:57
+5,Univ.Prof. Cecilia auch Schlauchin,0201533688,Car,7,Inactive,Female,3.31,2026-03-07 08:48:57,2025-08-09 08:48:57
+6,Maria Holzapfel,+49(0)3106 98720,Bicycle,10,Active,Male,3.31,2025-07-23 08:48:57,2025-10-01 08:48:57
+7,Adelinde Loos,+49(0)4973 103241,Bike,2,Inactive,Female,4.32,2025-12-08 08:48:57,2025-10-07 08:48:57
+8,Frau Franca Ziegert MBA.,07418 625652,Car,7,Inactive,Male,4.51,2026-06-16 08:48:57,2026-02-18 08:48:57
+9,Angela Hesse MBA.,04349 021158,Car,2,Inactive,Female,4.05,2026-03-09 08:48:57,2026-07-21 08:48:57
+10,Prof. Dorothea Röhrdanz,+49(0)6868793741,Scooter,7,Active,Male,3.41,2026-04-27 08:48:57,2025-07-17 08:48:57
+11,Teresa Trüb-Beer,09899 21722,Scooter,5,Inactive,Female,3.24,2025-12-02 08:48:57,2025-07-27 08:48:57
+12,Ronny Gröttner B.A.,+49(0)6163294511,Car,3,Active,Female,4.07,2026-04-18 08:48:57,2025-11-30 08:48:57
+13,Kriemhild Kruschwitz-Rohleder,04870998616,Bicycle,2,Inactive,Male,3.87,2025-12-21 08:48:57,2026-07-05 08:48:57
+14,Claus-Peter Rosenow-Schacht,(01191) 485646,Bicycle,10,Inactive,Female,4.42,2026-01-12 08:48:57,2026-03-18 08:48:57
+15,Prof. Ljubica Mühle B.Sc.,+49 (0) 4629 960653,Bike,7,Active,Female,3.34,2025-10-01 08:48:57,2025-12-21 08:48:57
+16,Petar Mülichen,+49(0)5054 44713,Bicycle,2,Inactive,Male,3.49,2025-10-16 08:48:57,2026-01-20 08:48:57
+17,Gerald Weimer-Margraf,04691373678,Bike,7,Inactive,Female,3.44,2025-07-11 08:48:57,2026-05-19 08:48:57
+18,Roswitha Blümel,02148 62890,Bike,9,Active,Male,4.81,2026-02-16 08:48:57,2026-02-15 08:48:57
+19,Dr. Tassilo Gute,+49(0)3070534578,Scooter,4,Active,Male,3.51,2026-05-17 08:48:57,2025-10-09 08:48:57
+20,Magrit Ebert-Stiffel,+49(0)3579727985,Scooter,2,Active,Female,3.93,2025-10-29 08:48:57,2025-07-20 08:48:57
+21,Catrin Heser,+49(0)4060 293333,Car,10,Inactive,Female,3.3,2026-07-10 08:48:57,2025-12-16 08:48:57
+22,Margaretha Lange,00072 29034,Car,5,Inactive,Male,3.7,2026-07-07 08:48:57,2026-03-08 08:48:57
+23,Michaela Tröst,(04665) 74374,Car,8,Active,Male,3.74,2026-03-20 08:48:57,2026-07-05 08:48:57
+24,Lidija Dobes-Albers,05899 44171,Bike,10,Inactive,Female,4.16,2025-07-31 08:48:57,2026-07-23 08:48:57
+25,Erica Schwital,04443283096,Car,10,Active,Female,4.21,2025-11-30 08:48:57,2026-05-28 08:48:57
+26,Marisa Etzold,+49(0)7446660993,Bike,8,Active,Female,4.96,2026-07-01 08:48:57,2025-11-28 08:48:57
+27,Miroslawa Trüb,+49(0) 875842824,Scooter,1,Active,Female,4.98,2025-11-18 08:48:57,2025-11-19 08:48:57
+28,Hubert Eckbauer,+49(0)8251 35346,Scooter,6,Inactive,Female,3.77,2025-07-13 08:48:57,2026-02-21 08:48:57
+29,Gundi Heß,(04717) 099917,Bike,6,Active,Female,3.19,2025-08-31 08:48:57,2026-01-28 08:48:57
+30,James Dussen van MBA.,04602 23569,Bicycle,5,Active,Female,3.16,2025-09-08 08:48:57,2026-06-02 08:48:57

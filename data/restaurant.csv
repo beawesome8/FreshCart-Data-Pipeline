@@ -1,0 +1,26 @@
+restaurant_id,name,cuisine_type,pricing_for_two,restaurant_phone,operating_hours,location_id,active_flag,open_status,created_date,modified_date
+1,Lachmann's Vegan Kitchen,Vietnamese,24.19,851612275,10:00-22:00,10,Y,Closed,13-04-2026 08:48,31-03-2026 08:48
+2,Hering's Turkish Kitchen,Vietnamese,35.58,+49(0)4637454990,10:00-22:00,7,Y,Open,09-08-2026 08:48,22-12-2025 08:48
+3,Heß's Italian Kitchen,Italian,39.19,(05301) 74268,10:00-22:00,10,Y,Closed,07-06-2026 08:48,16-02-2026 08:48
+4,Tlustek's Indian Kitchen,Vegan,27.82,+49(0)1459 33272,10:00-22:00,2,Y,Closed,08-11-2025 08:48,18-08-2025 08:48
+5,Metz's German Kitchen,Vietnamese,56.93,(05687) 833918,10:00-22:00,5,Y,Open,06-06-2026 08:48,31-03-2026 08:48
+6,Matthäi's Italian Kitchen,Turkish,27.26,05191 08839,10:00-22:00,2,Y,Open,11-08-2025 08:48,19-02-2026 08:48
+7,Reising's Vietnamese Kitchen,Burger,26.3,+49 (0) 2587 139718,10:00-22:00,4,Y,Open,27-06-2026 08:48,23-09-2025 08:48
+8,Matthäi's Vietnamese Kitchen,German,15.16,+49(0)7286790874,10:00-22:00,7,Y,Open,21-09-2025 08:48,01-04-2026 08:48
+9,Ullrich's Burger Kitchen,Bakery,40.24,+49(0)6403910651,10:00-22:00,3,Y,Open,06-07-2026 08:48,25-08-2025 08:48
+10,Riehl's German Kitchen,Vegan,41.21,+49(0)1704622656,10:00-22:00,3,Y,Open,05-01-2026 08:48,09-06-2026 08:48
+11,Meister's Vietnamese Kitchen,Vegan,55.45,618251286,10:00-22:00,1,Y,Open,11-02-2026 08:48,28-04-2026 08:48
+12,Rädel's Italian Kitchen,Vegan,50.11,+49 (0) 3004 786863,10:00-22:00,4,Y,Closed,30-09-2025 08:48,26-07-2025 08:48
+13,Hentschel's Indian Kitchen,Turkish,58.93,05243 106903,10:00-22:00,3,Y,Open,14-01-2026 08:48,01-08-2026 08:48
+14,Haering's Vegan Kitchen,Bakery,51.1,+49(0)1907 903067,10:00-22:00,3,Y,Open,30-03-2026 08:48,24-05-2026 08:48
+15,Heintze's Bakery Kitchen,German,53.64,03028 43959,10:00-22:00,2,Y,Open,03-05-2026 08:48,21-12-2025 08:48
+16,Scheuermann's Vietnamese Kitchen,Indian,25.03,(05342) 83644,10:00-22:00,6,Y,Open,21-01-2026 08:48,26-02-2026 08:48
+17,Bolander's Italian Kitchen,Vietnamese,30.8,09268 70568,10:00-22:00,5,Y,Closed,31-08-2025 08:48,12-11-2025 08:48
+18,Juncken's German Kitchen,Italian,54.47,624628733,10:00-22:00,6,Y,Closed,14-05-2026 08:48,20-10-2025 08:48
+19,Jacob's German Kitchen,Italian,41.85,+49 (0) 7086 688263,10:00-22:00,5,Y,Closed,05-08-2025 08:48,06-03-2026 08:48
+20,Hermighausen's Italian Kitchen,Bakery,55.48,+49(0) 517518304,10:00-22:00,7,Y,Open,05-04-2026 08:48,22-07-2026 08:48
+21,Kostolzin's German Kitchen,Indian,31.39,(09901) 39837,10:00-22:00,7,Y,Open,07-09-2025 08:48,25-02-2026 08:48
+22,Hänel's Vegan Kitchen,Italian,47.39,4033173936,10:00-22:00,10,Y,Closed,27-11-2025 08:48,08-03-2026 08:48
+23,Henck's Vegan Kitchen,Bakery,46.37,05467 85445,10:00-22:00,7,Y,Open,07-05-2026 08:48,10-01-2026 08:48
+24,Peukert's Turkish Kitchen,Vietnamese,33.27,07175 355609,10:00-22:00,7,Y,Open,11-03-2026 08:48,20-03-2026 08:48
+25,Hartung's Bakery Kitchen,Vegan,35.92,+49 (0) 0489 964235,10:00-22:00,4,Y,Closed,02-09-2025 08:48,26-04-2026 08:48

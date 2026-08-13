@@ -1,0 +1,145 @@
+menu_id,restaurant_id,item_name,description,price,category,availability,item_type,created_date,modified_date
+1,1,Cheeseburger,Herr Uhr leicht reich schlafen.,18.29,Vietnamese,true,Vegan,2026-07-01 08:48:57,2026-03-21 08:48:57
+2,1,Currywurst,Sonne laut See sich kochen.,15.95,Vietnamese,false,Veg,2025-07-25 08:48:57,2026-04-15 08:48:57
+3,1,Pho Bo,Drehen sechs laut wenig mehr Pferd.,8.04,Vietnamese,true,Veg,2026-08-01 08:48:57,2026-07-21 08:48:57
+4,1,Butter Chicken,Luft uns bekommen tot.,21.71,Vietnamese,true,Non-Veg,2026-01-13 08:48:57,2025-09-25 08:48:57
+5,1,Falafel Wrap,Sonne ihn unten.,7.5,Vietnamese,false,Non-Veg,2026-01-21 08:48:57,2026-04-11 08:48:57
+6,1,Doner Kebab,Bein dich etwas klein Baum.,15.81,Vietnamese,true,Veg,2025-07-11 08:48:57,2026-01-08 08:48:57
+7,1,Butter Chicken,Weiß richtig als Mama ihm also See Mann.,7.17,Vietnamese,false,Veg,2025-11-01 08:48:57,2026-04-08 08:48:57
+8,1,Pizza Margherita,Also Tier schaffen Tag weiter.,12.22,Vietnamese,false,Vegan,2025-11-15 08:48:57,2025-10-31 08:48:57
+9,2,Vegan Buddha Bowl,Wenn Luft Feuer ob.,21.1,Vietnamese,false,Vegan,2025-08-10 08:48:57,2025-11-28 08:48:57
+10,2,Pretzel,Tisch freuen hoch helfen hängen.,18.95,Vietnamese,false,Veg,2025-07-29 08:48:57,2025-12-13 08:48:57
+11,2,Cheeseburger,Fiel schnell gefährlich tun Bett zwei Rad.,8.67,Vietnamese,true,Vegan,2026-03-25 08:48:57,2025-07-17 08:48:57
+12,2,Currywurst,Boden Herr Minute.,12.72,Vietnamese,true,Non-Veg,2025-12-31 08:48:57,2026-07-05 08:48:57
+13,2,Pho Bo,Opa schreien Bild unter.,8.22,Vietnamese,false,Non-Veg,2025-11-10 08:48:57,2026-07-03 08:48:57
+14,2,Doner Kebab,Mutter verstehen brauchen machen auf es.,6.71,Vietnamese,false,Vegan,2026-05-27 08:48:57,2025-08-17 08:48:57
+15,2,Butter Chicken,Land aus bekommen Wetter weg Musik Apfel.,5.16,Vietnamese,false,Non-Veg,2025-11-09 08:48:57,2025-12-18 08:48:57
+16,2,Pretzel,Als erst denn traurig traurig wichtig.,5.12,Vietnamese,false,Non-Veg,2025-07-15 08:48:57,2025-10-18 08:48:57
+17,3,Falafel Wrap,Dorf fest um Himmel Wasser.,10.85,Italian,true,Non-Veg,2026-03-14 08:48:57,2025-07-24 08:48:57
+18,3,Pretzel,Heute sicher steigen schlecht besser sieben.,19.36,Italian,false,Vegan,2025-07-27 08:48:57,2025-08-02 08:48:57
+19,3,Currywurst,Ball Junge uns Glück sonst wohnen.,18.4,Italian,true,Non-Veg,2026-04-23 08:48:57,2026-03-27 08:48:57
+20,3,Pretzel,Zeigen gesund Onkel Stadt kennen fangen.,12.74,Italian,false,Non-Veg,2025-09-05 08:48:57,2025-08-31 08:48:57
+21,4,Doner Kebab,Wird jeder schenken richtig bis nämlich Straße.,19.13,Vegan,true,Vegan,2025-11-13 08:48:57,2026-07-31 08:48:57
+22,4,Pretzel,Bild die schwer Onkel.,14.65,Vegan,true,Veg,2025-09-18 08:48:57,2026-01-06 08:48:57
+23,4,Doner Kebab,Gern Buch aber gelb Hand Freund.,19.6,Vegan,true,Veg,2026-04-02 08:48:57,2026-01-31 08:48:57
+24,4,Vegan Buddha Bowl,Blau jeder mit Licht.,7.81,Vegan,false,Non-Veg,2025-07-20 08:48:57,2026-01-31 08:48:57
+25,4,Pho Bo,Anfangen haben Boden neu.,17.54,Vegan,false,Non-Veg,2026-07-03 08:48:57,2025-12-16 08:48:57
+26,4,Schnitzel,Vielleicht allein ihn spät sehen Monat.,17.48,Vegan,true,Non-Veg,2026-04-21 08:48:57,2025-09-15 08:48:57
+27,4,Pizza Margherita,Möglich drehen Herz dem gefährlich.,18.06,Vegan,true,Veg,2026-04-09 08:48:57,2026-05-03 08:48:57
+28,5,Falafel Wrap,Denn draußen früher Geburtstag später hart wirklich.,6.74,Vietnamese,true,Non-Veg,2025-09-05 08:48:57,2026-06-16 08:48:57
+29,5,Falafel Wrap,Lehrer nächste klettern dazu acht hinter unser Herr.,21.06,Vietnamese,false,Vegan,2026-04-04 08:48:57,2025-07-17 08:48:57
+30,5,Vegan Buddha Bowl,Kam jeder treffen rechnen nein gefährlich.,7.02,Vietnamese,true,Veg,2026-03-07 08:48:57,2026-06-19 08:48:57
+31,5,Falafel Wrap,Wissen er gerade Zahl zeigen ganz Schnee leben.,4.46,Vietnamese,false,Vegan,2025-09-01 08:48:57,2026-02-02 08:48:57
+32,6,Butter Chicken,Später gesund fährt stark hat wieder er.,5.37,Turkish,true,Veg,2025-08-22 08:48:57,2025-07-14 08:48:57
+33,6,Pho Bo,Eigentlich sonst anfangen sehr wirklich erzählen Straße.,19.31,Turkish,true,Vegan,2025-07-09 08:48:57,2026-07-23 08:48:57
+34,6,Vegan Buddha Bowl,Tragen stellen ich leicht.,13.59,Turkish,false,Veg,2025-11-27 08:48:57,2025-09-16 08:48:57
+35,6,Vegan Buddha Bowl,Feuer rennen schwimmen steigen bekommen.,4.23,Turkish,false,Non-Veg,2026-06-20 08:48:57,2026-01-04 08:48:57
+36,6,Vegan Buddha Bowl,Lange Hund lesen wer schlimm mein steigen Hand.,15.44,Turkish,false,Vegan,2026-05-27 08:48:57,2026-01-03 08:48:57
+37,6,Doner Kebab,Nein Welt böse Finger rufen draußen nun.,17.21,Turkish,false,Vegan,2025-11-11 08:48:57,2025-07-13 08:48:57
+38,6,Cheeseburger,Zum scheinen holen sitzen Zahl jeder alle.,12.37,Turkish,false,Non-Veg,2026-04-10 08:48:57,2026-06-30 08:48:57
+39,7,Cheeseburger,Fahrrad sieht mit schlagen Fahrrad.,8.39,Burger,false,Vegan,2025-10-05 08:48:57,2025-09-05 08:48:57
+40,7,Pretzel,Hin Spiel natürlich leicht Gott andere.,10.06,Burger,false,Non-Veg,2026-05-12 08:48:57,2025-12-07 08:48:57
+41,7,Butter Chicken,Garten wer bis Tür.,10.39,Burger,false,Non-Veg,2026-03-23 08:48:57,2025-10-12 08:48:57
+42,7,Pho Bo,Grün glücklich Stadt los.,14.0,Burger,true,Veg,2026-04-12 08:48:57,2025-08-10 08:48:57
+43,7,Pretzel,Land kalt schnell Geschenk gefährlich Teller.,12.79,Burger,true,Vegan,2025-12-13 08:48:57,2025-09-17 08:48:57
+44,7,Cheeseburger,An glücklich böse Stunde.,12.07,Burger,true,Veg,2026-03-16 08:48:57,2026-04-22 08:48:57
+45,8,Butter Chicken,Liegen Milch gibt ja kommen.,9.51,German,false,Non-Veg,2025-11-03 08:48:57,2025-11-15 08:48:57
+46,8,Vegan Buddha Bowl,Ohne einige rennen hinter setzen Wald.,11.66,German,false,Non-Veg,2025-08-19 08:48:57,2025-12-24 08:48:57
+47,8,Pho Bo,Nehmen Himmel Schuh erschrecken sitzen Teller bei.,9.52,German,true,Veg,2025-08-09 08:48:57,2026-05-07 08:48:57
+48,8,Vegan Buddha Bowl,Stunde Maus hat Ende.,6.15,German,true,Veg,2026-04-25 08:48:57,2025-07-31 08:48:57
+49,8,Cheeseburger,Fressen vielleicht machen Papa.,8.98,German,false,Veg,2026-05-06 08:48:57,2026-03-15 08:48:57
+50,8,Butter Chicken,Himmel hinein dabei Haare klettern dumm schaffen Stunde.,10.5,German,false,Veg,2025-08-16 08:48:57,2025-11-13 08:48:57
+51,8,Doner Kebab,Neben sagen genau fertig damit helfen den Hilfe.,8.94,German,true,Vegan,2026-03-17 08:48:57,2025-08-21 08:48:57
+52,9,Cheeseburger,Dein heute einige Opa Schluss plötzlich überall Minutenmir.,5.85,Bakery,true,Vegan,2026-03-21 08:48:57,2025-12-16 08:48:57
+53,9,Cheeseburger,Gab einige unser ob vier Woche lassen.,11.93,Bakery,true,Veg,2026-04-06 08:48:57,2025-12-12 08:48:57
+54,9,Pizza Margherita,Tisch wünschen lesen legen schlafen.,18.8,Bakery,false,Non-Veg,2026-07-07 08:48:57,2025-10-22 08:48:57
+55,9,Schnitzel,Schwer Katze draußen Mutter stellen fahren.,6.73,Bakery,false,Veg,2026-04-08 08:48:57,2026-06-14 08:48:57
+56,9,Currywurst,Früher Maus drehen.,17.76,Bakery,true,Vegan,2026-01-31 08:48:57,2025-12-26 08:48:57
+57,10,Pho Bo,Mutter Spiel Lehrer Leute müde freuen mein.,19.48,Vegan,false,Non-Veg,2025-10-26 08:48:57,2025-09-30 08:48:57
+58,10,Schnitzel,Mehr sofort sollen kam etwas ist.,14.97,Vegan,true,Veg,2025-09-27 08:48:57,2026-04-27 08:48:57
+59,10,Pho Bo,Geben überall kennen grün tot.,15.89,Vegan,true,Veg,2026-05-17 08:48:57,2025-11-04 08:48:57
+60,10,Pizza Margherita,Vier damit tief erzählen setzen schlecht.,6.82,Vegan,false,Non-Veg,2025-08-26 08:48:57,2025-10-13 08:48:57
+61,10,Cheeseburger,Oma draußen dem erschrecken erschrecken Baum gut fährt.,9.24,Vegan,true,Non-Veg,2025-08-17 08:48:57,2026-03-22 08:48:57
+62,10,Cheeseburger,Drehen zu gar müde Woche lieb Weg.,5.28,Vegan,true,Non-Veg,2025-09-27 08:48:57,2025-10-16 08:48:57
+63,10,Butter Chicken,Dazu singen ihm Baum.,11.65,Vegan,true,Vegan,2026-05-29 08:48:57,2026-03-30 08:48:57
+64,11,Pizza Margherita,Vogel darin Vogel Fisch schwer.,5.07,Vegan,false,Vegan,2025-07-26 08:48:57,2025-10-26 08:48:57
+65,11,Pho Bo,Sommer schauen leben nach Freund.,11.9,Vegan,false,Vegan,2026-03-11 08:48:57,2025-08-20 08:48:57
+66,11,Pretzel,Her Berg Stelle sonst Hunger singen.,20.97,Vegan,false,Non-Veg,2026-07-03 08:48:57,2025-10-11 08:48:57
+67,11,Schnitzel,Klasse laut Name voll Vater Boden.,20.01,Vegan,false,Vegan,2026-04-07 08:48:57,2026-07-31 08:48:57
+68,11,Pizza Margherita,Onkel schnell verkaufen stellen hoch zehn trinken.,8.12,Vegan,true,Vegan,2026-03-29 08:48:57,2025-10-22 08:48:57
+69,12,Doner Kebab,Freund tun gleich Nacht Mädchen laufen Gott.,12.47,Vegan,false,Non-Veg,2026-05-13 08:48:57,2025-10-18 08:48:57
+70,12,Pretzel,Aus offen und.,15.43,Vegan,false,Veg,2025-12-16 08:48:57,2026-02-16 08:48:57
+71,12,Pretzel,Daran verstehen kam.,10.0,Vegan,true,Veg,2026-02-26 08:48:57,2026-01-15 08:48:57
+72,12,Cheeseburger,Zwei ja öffnen.,9.19,Vegan,false,Vegan,2026-07-26 08:48:57,2025-12-24 08:48:57
+73,13,Vegan Buddha Bowl,Wald gegen vor vorbei.,8.54,Turkish,true,Non-Veg,2025-11-23 08:48:57,2026-08-13 08:48:57
+74,13,Currywurst,Reich Fisch heißen weil.,12.32,Turkish,true,Veg,2025-11-21 08:48:57,2026-02-09 08:48:57
+75,13,Falafel Wrap,Bald offen sehr so.,17.62,Turkish,false,Veg,2026-05-01 08:48:57,2026-03-30 08:48:57
+76,13,Currywurst,Reiten schreien ab Land davon Familie.,6.36,Turkish,false,Non-Veg,2025-08-21 08:48:57,2025-12-08 08:48:57
+77,14,Schnitzel,Affe Schnee tot zurück ins davon.,21.52,Bakery,true,Vegan,2026-05-24 08:48:57,2026-03-07 08:48:57
+78,14,Currywurst,Fast bleiben Tag Brot.,4.25,Bakery,false,Veg,2026-04-20 08:48:57,2026-06-16 08:48:57
+79,14,Cheeseburger,Wahr dein spielen sitzen davon zwischen.,21.05,Bakery,true,Non-Veg,2025-08-12 08:48:57,2026-03-17 08:48:57
+80,14,Currywurst,Bein Musik noch dort.,16.7,Bakery,false,Non-Veg,2025-12-15 08:48:57,2026-04-11 08:48:57
+81,15,Currywurst,See oft dich ihm schlagen viel.,6.6,German,true,Vegan,2025-11-26 08:48:57,2025-07-27 08:48:57
+82,15,Doner Kebab,Wasser dem daran seit.,19.55,German,false,Non-Veg,2026-02-20 08:48:57,2025-11-27 08:48:57
+83,15,Pho Bo,Wünschen gerade dem Fuß bin Minute.,18.77,German,false,Vegan,2026-03-14 08:48:57,2025-10-17 08:48:57
+84,15,Falafel Wrap,Sechs fünf wird anfangen Vater vorbei erschrecken nie.,21.98,German,false,Veg,2025-12-28 08:48:57,2025-11-11 08:48:57
+85,15,Cheeseburger,Sind Garten Ball weg wohnen.,10.21,German,false,Non-Veg,2026-03-02 08:48:57,2026-05-09 08:48:57
+86,15,Butter Chicken,Hier Feuer packen beißen warten allein hart.,14.29,German,true,Non-Veg,2026-07-22 08:48:57,2026-03-04 08:48:57
+87,15,Cheeseburger,Dauern viel mögen hat Schiff Sommer.,16.69,German,false,Non-Veg,2025-09-08 08:48:57,2025-09-14 08:48:57
+88,16,Cheeseburger,Also Bein frei auch.,21.37,Indian,true,Vegan,2025-10-15 08:48:57,2026-02-25 08:48:57
+89,16,Pizza Margherita,Wissen hoch für Schwester.,19.74,Indian,false,Veg,2025-11-17 08:48:57,2025-12-23 08:48:57
+90,16,Schnitzel,Ins Hund Papa Maus dick bin.,17.0,Indian,false,Vegan,2026-05-26 08:48:57,2026-07-06 08:48:57
+91,16,Cheeseburger,Licht erklären Tante Mann.,18.07,Indian,false,Non-Veg,2025-09-28 08:48:57,2025-08-24 08:48:57
+92,16,Pretzel,Nass Sommer Rad Platz Geld Junge.,15.7,Indian,false,Vegan,2025-11-13 08:48:57,2026-01-31 08:48:57
+93,17,Cheeseburger,Bauer bis jung Kind nimmt.,19.7,Vietnamese,true,Vegan,2026-07-09 08:48:57,2026-04-15 08:48:57
+94,17,Pho Bo,Ruhig rennen durch allein dein.,21.95,Vietnamese,true,Non-Veg,2026-06-24 08:48:57,2025-07-20 08:48:57
+95,17,Pizza Margherita,Dort wohl Luft.,11.99,Vietnamese,false,Veg,2026-07-21 08:48:57,2026-02-28 08:48:57
+96,17,Schnitzel,Draußen darin später Freund warm.,9.28,Vietnamese,false,Non-Veg,2026-05-31 08:48:57,2026-04-10 08:48:57
+97,17,Currywurst,Glas Jahr Luft.,11.42,Vietnamese,true,Veg,2026-05-16 08:48:57,2026-07-04 08:48:57
+98,17,Falafel Wrap,Schwester nach besser Klasse Hand.,19.68,Vietnamese,true,Non-Veg,2025-10-19 08:48:57,2026-06-01 08:48:57
+99,18,Cheeseburger,Versuchen draußen Ding spielen waschen schaffen dafür.,15.48,Italian,false,Non-Veg,2025-09-06 08:48:57,2026-08-09 08:48:57
+100,18,Cheeseburger,Abend versuchen allein aus Hase wer dürfen.,20.22,Italian,true,Veg,2025-12-30 08:48:57,2026-02-18 08:48:57
+101,18,Falafel Wrap,Minute Welt sicher.,9.38,Italian,false,Vegan,2026-04-07 08:48:57,2025-12-23 08:48:57
+102,18,Pho Bo,Fallen Finger wenig Geschichte trinken möglich.,7.59,Italian,false,Non-Veg,2026-06-20 08:48:57,2026-04-14 08:48:57
+103,18,Pretzel,Leise Weihnachten dürfen suchen.,14.29,Italian,false,Vegan,2026-03-15 08:48:57,2026-08-02 08:48:57
+104,19,Pho Bo,Wohl Bein Kopf.,4.15,Italian,true,Vegan,2025-07-28 08:48:57,2025-12-02 08:48:57
+105,19,Pho Bo,Spielen Geld bis klein heiß.,17.96,Italian,true,Vegan,2026-02-14 08:48:57,2026-04-23 08:48:57
+106,19,Butter Chicken,Musik gehen oben Kopf neben.,15.18,Italian,true,Vegan,2026-06-25 08:48:57,2025-09-26 08:48:57
+107,19,Schnitzel,Über sprechen Seite merken stellen dich wieder.,9.56,Italian,false,Veg,2025-10-21 08:48:57,2026-02-08 08:48:57
+108,19,Doner Kebab,Fenster groß uns.,5.62,Italian,false,Non-Veg,2025-07-27 08:48:57,2026-01-13 08:48:57
+109,19,Doner Kebab,Woche ab rennen.,7.61,Italian,false,Vegan,2025-11-30 08:48:57,2026-03-27 08:48:57
+110,19,Doner Kebab,Brot mal fertig Leben Baum.,8.63,Italian,false,Non-Veg,2025-07-27 08:48:57,2026-02-21 08:48:57
+111,20,Cheeseburger,Schwer Boden werden Wasser.,21.33,Bakery,true,Veg,2025-09-01 08:48:57,2025-08-08 08:48:57
+112,20,Pretzel,Ihn Wasser klettern sind nah lesen packen.,21.41,Bakery,false,Veg,2026-01-23 08:48:57,2026-08-06 08:48:57
+113,20,Pho Bo,Bekommen Mädchen jung wünschen fertig frei.,13.66,Bakery,false,Non-Veg,2025-09-03 08:48:57,2025-07-26 08:48:57
+114,20,Pho Bo,Wetter hinein Tür gesund Kind Fenster.,14.52,Bakery,false,Veg,2025-09-02 08:48:57,2026-04-16 08:48:57
+115,21,Schnitzel,Dein Spaß böse Bruder kein.,15.15,Indian,false,Vegan,2026-04-22 08:48:57,2025-09-16 08:48:57
+116,21,Pizza Margherita,Hören Mann Zahl erst gelb Freude.,15.44,Indian,false,Vegan,2026-03-12 08:48:57,2025-09-15 08:48:57
+117,21,Pretzel,Bleiben Tante gehen Schuh.,6.1,Indian,true,Veg,2026-03-11 08:48:57,2025-12-04 08:48:57
+118,21,Pizza Margherita,Auch um gewinnen Blume Finger halbe lieb scheinen.,5.75,Indian,true,Non-Veg,2025-12-24 08:48:57,2026-02-05 08:48:57
+119,21,Currywurst,Tragen dunkel Woche verstecken Minutenmir.,11.54,Indian,true,Non-Veg,2025-09-12 08:48:57,2026-06-24 08:48:57
+120,21,Cheeseburger,Fisch kommen suchen dem allein turnen zum.,15.08,Indian,false,Veg,2025-08-25 08:48:57,2026-02-05 08:48:57
+121,21,Butter Chicken,Endlich Hund schlafen Winter.,11.98,Indian,true,Non-Veg,2026-06-24 08:48:57,2025-08-27 08:48:57
+122,22,Currywurst,Name Frau Tier an.,20.23,Italian,false,Veg,2026-01-22 08:48:57,2026-03-25 08:48:57
+123,22,Butter Chicken,Endlich plötzlich Teller Blume.,21.43,Italian,false,Veg,2025-09-08 08:48:57,2026-04-27 08:48:57
+124,22,Falafel Wrap,Daran wird baden werfen jetzt sehen.,21.48,Italian,true,Non-Veg,2026-04-11 08:48:57,2026-06-10 08:48:57
+125,22,Falafel Wrap,Angst Schiff dumm essen einige Fußball Wald.,7.69,Italian,true,Vegan,2026-04-25 08:48:57,2026-04-16 08:48:57
+126,22,Vegan Buddha Bowl,Nur nächste Polizei.,17.94,Italian,true,Non-Veg,2026-05-31 08:48:57,2026-06-08 08:48:57
+127,22,Currywurst,Ihm Milch Baum Fußball dein er war.,8.51,Italian,true,Veg,2025-09-09 08:48:57,2026-07-31 08:48:57
+128,23,Schnitzel,Fisch öffnen mein alt Herz Schwester langsam.,10.45,Bakery,true,Vegan,2026-03-01 08:48:57,2026-08-05 08:48:57
+129,23,Doner Kebab,Gott Mutter Gesicht fröhlich anfangen nennen Angst.,8.78,Bakery,true,Vegan,2026-01-10 08:48:57,2025-11-17 08:48:57
+130,23,Pizza Margherita,Bauer zwei mal Sonntag überall.,17.42,Bakery,false,Non-Veg,2025-07-11 08:48:57,2026-02-09 08:48:57
+131,23,Currywurst,Brief rennen freuen Tisch.,14.69,Bakery,false,Vegan,2026-04-22 08:48:57,2025-10-03 08:48:57
+132,23,Schnitzel,Sonne Wissen müssen zum.,17.09,Bakery,false,Non-Veg,2025-09-18 08:48:57,2026-07-29 08:48:57
+133,24,Cheeseburger,Haben uns unter durch nehmen Tag.,19.25,Vietnamese,false,Vegan,2026-06-19 08:48:57,2025-12-05 08:48:57
+134,24,Cheeseburger,Welt Angst schreiben Wissen Musik Musik.,5.32,Vietnamese,true,Non-Veg,2025-10-06 08:48:57,2026-05-30 08:48:57
+135,24,Pizza Margherita,Und Teller zeigen mehr durch.,6.27,Vietnamese,false,Non-Veg,2025-10-12 08:48:57,2025-11-15 08:48:57
+136,24,Pho Bo,Bleiben fehlen etwas.,12.17,Vietnamese,false,Veg,2025-08-19 08:48:57,2026-06-16 08:48:57
+137,25,Butter Chicken,Lange ging nur Tag Glück durch Stück.,11.74,Vegan,true,Non-Veg,2026-02-21 08:48:57,2025-12-24 08:48:57
+138,25,Pretzel,Baum der Schuh den da lustig.,11.49,Vegan,true,Non-Veg,2026-01-07 08:48:57,2026-03-06 08:48:57
+139,25,Pho Bo,Wort helfen wird hinter bringen gefährlich.,10.74,Vegan,true,Vegan,2025-12-14 08:48:57,2026-07-10 08:48:57
+140,25,Pizza Margherita,Ziehen Seite Junge Papa.,18.97,Vegan,true,Non-Veg,2026-06-25 08:48:57,2025-07-28 08:48:57
+141,25,Vegan Buddha Bowl,Rad dunkel zeigen Schluss wichtig stehen fallen.,18.61,Vegan,true,Vegan,2025-10-30 08:48:57,2025-10-30 08:48:57
+142,25,Vegan Buddha Bowl,Tier heraus selbst Garten dürfen ab schreiben müde.,16.06,Vegan,false,Non-Veg,2025-09-07 08:48:57,2025-07-25 08:48:57
+143,25,Pretzel,Apfel nicht wer zehn fahren Mutter will.,19.63,Vegan,true,Non-Veg,2025-10-10 08:48:57,2026-03-07 08:48:57
+144,25,Vegan Buddha Bowl,Gibt besser groß Geschenk.,5.86,Vegan,true,Veg,2025-09-11 08:48:57,2025-12-10 08:48:57
