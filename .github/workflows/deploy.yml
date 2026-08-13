@@ -36,6 +36,7 @@ jobs:
           authenticator = "SNOWFLAKE_JWT"
           private_key_file = "/tmp/rsa_key.p8"
           EOF
+          chmod 0600 ~/.snowflake/config.toml
 
       - name: Deploy SQL files in order
         run: |
