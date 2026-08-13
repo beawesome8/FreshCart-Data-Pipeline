@@ -13,6 +13,7 @@ CREATE OR REPLACE PROCEDURE common.sp_clean_layer()
 RETURNS STRING
 LANGUAGE SQL
 AS
+$$
 BEGIN
   MERGE INTO clean_sch.location AS target
   USING (SELECT TRY_CAST(location_id AS NUMBER) location_id, city, state, zipcode,
@@ -125,6 +126,7 @@ BEGIN
 
   RETURN 'clean layer refresh complete';
 END;
+$$;
 
 -- ============================================================
 -- PROCEDURE 2: DQ checks — FIXED: delivery block added (was missing entirely)
@@ -133,6 +135,7 @@ CREATE OR REPLACE PROCEDURE common.sp_dq_checks()
 RETURNS STRING
 LANGUAGE SQL
 AS
+$$
 BEGIN
   INSERT INTO common.dq_log (layer_transition, table_name, rows_in, rows_out, null_check_status, fk_check_status, overall_status)
   WITH rc AS (SELECT (SELECT COUNT(*) FROM stage_sch.location) rows_in, (SELECT COUNT(*) FROM clean_sch.location) rows_out),
@@ -220,6 +223,7 @@ BEGIN
 
   RETURN 'dq checks complete';
 END;
+$$;
 
 -- ============================================================
 -- PROCEDURE 3: clean -> consumption (skipped if latest DQ batch has any FAIL)
@@ -230,6 +234,7 @@ LANGUAGE SQL
 AS
 DECLARE
   fail_count NUMBER;
+$$
 BEGIN
   SELECT COUNT(*) INTO :fail_count
   FROM common.dq_log
@@ -314,6 +319,7 @@ BEGIN
 
   RETURN 'consumption layer refresh complete';
 END;
+$$;
 
 -- ============================================================
 -- TASKS: chained, scheduled daily
