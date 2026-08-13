@@ -22,7 +22,16 @@ jobs:
         run: pip install snowflake-cli-labs
 
       - name: Write private key to file
-        run: echo "${{ secrets.SNOWFLAKE_PRIVATE_KEY }}" > /tmp/rsa_key.p8
+        run: |
+          cat > /tmp/rsa_key.p8 << 'KEYEOF'
+          ${{ secrets.SNOWFLAKE_PRIVATE_KEY }}
+          KEYEOF
+          sed -i 's/\r$//' /tmp/rsa_key.p8
+          chmod 0600 /tmp/rsa_key.p8
+
+      - name: Validate private key format
+        run: |
+          openssl pkey -in /tmp/rsa_key.p8 -noout -text > /dev/null && echo "Key format OK"
 
       - name: Configure Snowflake CLI connection
         run: |
