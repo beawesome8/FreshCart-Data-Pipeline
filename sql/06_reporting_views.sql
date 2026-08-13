@@ -69,3 +69,4 @@ SELECT * FROM consumption_sch.vw_delivery_performance ORDER BY delivered_rate_pc
 SELECT * FROM common.vw_latest_dq_status;-- CI/CD trigger test
 -- retest after chmod fix
 -- retest after connection flag fix
+-- retest after key format fix
