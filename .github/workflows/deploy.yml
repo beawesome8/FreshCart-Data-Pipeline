@@ -44,5 +44,5 @@ jobs:
                    sql/03_dq_checks.sql sql/04_consumption_layer.sql sql/05_task_orchestration.sql \
                    sql/06_reporting_views.sql; do
             echo "Running $f"
-            snow sql -f "$f" -c freshcart --temporary-connection || exit 1
+            snow sql -f "$f" -c freshcart || exit 1
           done
